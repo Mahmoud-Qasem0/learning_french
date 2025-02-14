@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { Lesson } from "../OpenCourse/OpenCourse";
 import { Container } from "react-bootstrap";
-import umsvid from "../../assets/ums.mp4";
 
 const LecturePage: React.FC = () => {
   const [lesson, setLesson] = React.useState<Lesson>();
@@ -17,7 +16,7 @@ const LecturePage: React.FC = () => {
     <>
       <Container>
         <video className="my-4 w-100 rounded" width="320" controls>
-          <source src={umsvid} type="video/mp4" />
+          <source src="..." type="video/mp4" />
         </video>
         <div className="vid-desc">
           <h4>{lesson?.title}</h4>
