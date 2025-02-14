@@ -1,0 +1,11 @@
+.courses .row .lec-container:not(:last-child) {
+  border-right: 1px solid #ddd !important;
+}
+@media (max-width: 991px) {
+  .courses .row .lec-container:not(:last-child) {
+    border-right: none !important;
+  }
+  .courses .row .lec-container:not(:last-child) {
+    border-bottom: 1px solid #ddd !important;
+  }
+}

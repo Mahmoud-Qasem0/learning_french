@@ -1,0 +1,26 @@
+.open-course .container .row .card .card-body ul li {
+  cursor: pointer;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.open-course .container .row .card .card-body ul li:hover,
+.open-course .container .row .card .card-body ul li.active {
+  border: 1px solid #ffd599 !important;
+}
+.open-course .container .row .card .card-body ul li .lesson-title {
+  font-size: 14px;
+}
+.open-course .container .row .card .card-body ul li .time-duration {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.open-course .container .row .card .card-body ul li:hover .time-duration {
+  background-color: #ffd599;
+}
