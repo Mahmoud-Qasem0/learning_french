@@ -58,6 +58,12 @@ const NavBar: React.FC = (): JSX.Element => {
                 style={{ color: "#262626" }}>
                 التواصل
               </Link>
+              <Link
+                to="https://github.com/Mahmoud-Qasem0"
+                className="my-3 text-center mx-lg-3"
+                style={{ color: "#262626" }}>
+                عن المطور
+              </Link>
             </Nav>
           </Navbar.Collapse>
           <ButtonGroup className="d-none d-lg-flex">
