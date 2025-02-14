@@ -27,7 +27,7 @@ const Courses: React.FC = (): JSX.Element => {
   const getCourses = useCallback(async () => {
     try {
       setLoading(true);
-      const { data } = await axios.get("http://localhost:8000/courses");
+      const { data } = await axios.get("https://b2766e07-c296-458d-aa55-1bd4497c1897-00-1kx41ygn2dy5b.worf.replit.dev/courses");
       setCourses(data);
       console.log(data);
       setLoading(false);
