@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
           <Col md={2} className="mb-3 mb-md-0 text-center text-md-start">
             <h6 className="fw-bold">الرئيسية</h6>
             <p className="mb-1">القائمة</p>
-            <p className="mb-0">مدارسنا الأساسية</p>
+            <p className="mb-0">محاضراتنا الأساسية</p>
           </Col>
 
           <Col md={2} className="mb-3 mb-md-0 text-center text-md-start">
